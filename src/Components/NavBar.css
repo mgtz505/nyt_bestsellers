@@ -1,0 +1,22 @@
+
+.NavBar {
+    background-color: #000000;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.titleIcon {
+    color:whitesmoke
+}
+
+.DropDownContainer {
+    align-self: center;
+}
+.DropDown {
+    
+}

@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
 import './App.css';
+import NavBar from './Components/NavBar'
+import Results from './Components/Results'
 
 function App() {
+  //Object to Sort & Contain all API Query Criteria
+
+// key: process.env.REACT_APP_NYT_KEY,
+const searchOptions = {
+    api: "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=",
+    key: "process.env.REACT_APP_NYT_KEY",
+  }
+console.log()
+const [books, setBooks] = useState()
+
+useEffect(() => {
+  getBestSellers();
+}, [])
+
+  //Function to Call the NYT API
+  function getBestSellers(){
+    const url= `${searchOptions.api}${searchOptions.key}`;
+    console.log(url)
+    
+    fetch(url)
+    .then(response => response.json())
+    .then (response => {
+      // console.log(response)
+      setBooks(response);
+    })
+    .catch(console.error)
+  }
+console.log(books)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="NavBar">
+        <NavBar/>
       </header>
+      <main className="ResultsSection">
+        <Results books={books}/>
+      </main>
     </div>
   );
 }

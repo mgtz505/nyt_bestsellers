@@ -1,0 +1,25 @@
+.ResultMap {
+  background: rgb(32, 29, 29);
+  height: 100%;
+
+}
+
+.ResultChild {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Result {
+  color: white;
+  background: rgb(50, 53, 53);
+  height: 35vh;
+}
+
+.ResultImage {
+    height: 187.5px;
+    width: 123.75px;
+    border: whitesmoke 1.2px solid;
+}
