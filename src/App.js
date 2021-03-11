@@ -9,7 +9,7 @@ function App() {
 // key: process.env.REACT_APP_NYT_KEY,
 const searchOptions = {
     api: "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=",
-    key: "process.env.REACT_APP_NYT_KEY",
+    key: "U3Z8243UGH2G8DQ0pcEYvTZrmpwQwTVz",
   }
 console.log()
 const [books, setBooks] = useState()

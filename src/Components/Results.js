@@ -9,12 +9,13 @@ const Results = (books) => {
     // console.log("Book Description Path", books.books.results.books[0].description)
     // console.log("Book AMZN Path", books.books.results.books[0].amazon_product_url)
 let bookArray = books.books.results.books;
+// console.log("bookArray:", bookArray)
 
     return (
         <div>
         {books ? 
             <div className="CriteriaHeader">
-                <h1 className="CriteriaBanner">NYT Best Sellers in {books.books.results.list_name} From: {books.books.results.bestsellers_date}</h1>
+                <h1 className="CriteriaBanner">NYT Best Sellers, {books.books.results.list_name} as of {books.books.results.bestsellers_date}</h1>
                 <div className="ResultMap">
                     <div className="ResultChild">
                         {(bookArray).map((item, i) => (
