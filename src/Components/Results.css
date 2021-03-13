@@ -1,25 +1,26 @@
 .ResultMap {
-  background: rgb(32, 29, 29);
+  /* background: rgb(32, 29, 29); */
   height: 100%;
+  background-color: black;
 
 }
-
 .ResultChild {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
-    margin: 10px;
-    padding: 10px;
+    justify-items: center;
+    align-items: center;
+
 }
 
 .Result {
-  color: white;
-  background: rgb(50, 53, 53);
+  background: black;
   height: 35vh;
+
 }
 
 .ResultImage {
     height: 187.5px;
     width: 123.75px;
-    border: whitesmoke 1.2px solid;
+    border: whitesmoke 1.5px solid;
 }

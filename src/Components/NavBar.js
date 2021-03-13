@@ -1,23 +1,26 @@
-import React from 'react';
+import React, {useState}  from 'react';
 import DropDown from './DropDown'
 import About from './About'
 import './NavBar.css'
 
-const NavBar = (type) => {
-console.log(type)
+const NavBar = () => {
+
+    // const [type, setType] = useState("")
+    // const selectType = (event) => setType(event.target.innerText)
 
     
     return (
-        <div className="NavBar">
-            <div className="TitleIcon">
-                <h1>NYT BOOKS</h1>
-            </div>
-                <About/>
-            <div className="DropDownContainer">
-                <DropDown className="DropDown"/>
-            </div>
+        <div>
+            
+            <div className="NavBar">
+                <div className="TitleIcon">
+                    <h1>NYT BOOKS</h1>
+                </div>
+                    <About/>
+                </div> 
         </div>
-    );
+        );
+
 };
 
 export default NavBar;

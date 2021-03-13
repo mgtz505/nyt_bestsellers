@@ -41,7 +41,8 @@
   }
 
   .triggerButton {
-    background: #ffffff;
+    background: black;
+    color: white;
     border-radius: 90px;
     cursor: pointer;
     display: flex;

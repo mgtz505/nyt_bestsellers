@@ -1,27 +1,27 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './Results.css'
-const Results = (books) => {
-    console.log(books)
-    // console.log(books.books.results.bestsellers_date)
-    // console.log("Book Title Path", books.books.results.books[0].title)
-    // console.log("Book Author Path", books.books.results.books[0].author)
-    // console.log("Book Image Path", books.books.results.books[0].book_image)
-    // console.log("Book Description Path", books.books.results.books[0].description)
-    // console.log("Book AMZN Path", books.books.results.books[0].amazon_product_url)
-let bookArray = books.books.results.books;
-// console.log("bookArray:", bookArray)
-
+const Results = ({ books }) => {
+   //Ensure that books prop is being destructued and pulled into Results.js properly
+    // console.log(books)
+    
+    //Set the state for the book array that will be mapped on the component
+    const [bookArray, setBookArray] = useState([]);
+    useEffect(() => {
+        //? after books if they disappear 
+        setBookArray(books?.results.books);
+    }, [books])
+console.log(bookArray);
     return (
         <div>
-        {books ? 
+        {bookArray ? 
             <div className="CriteriaHeader">
-                <h1 className="CriteriaBanner">NYT Best Sellers, {books.books.results.list_name} as of {books.books.results.bestsellers_date}</h1>
-                <div className="ResultMap">
+                {/* <h1 className="CriteriaBanner">Displaying Best-Selling {books.results.list_name}</h1> */}
+                <div className="ResultMap" >
                     <div className="ResultChild">
-                        {(bookArray).map((item, i) => (
+                        {bookArray.map((item, i) => (
                             <div>
                                     <div className="Result" key={i}>
-                                        <img className="ResultImage" src={bookArray[i].book_image} />
+                                        <img className="ResultImage" src={item.book_image} />
                                     </div>
                             </div>
                 
