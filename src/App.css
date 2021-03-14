@@ -1,3 +1,12 @@
 .App {
-  background-color: black;
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.NavBar {
+  height:60px;
+  margin-top: 10px;
+}
+
+.HomePhoto {
+  width: 100%
 }

@@ -4,7 +4,8 @@ import NavBar from "./Components/NavBar";
 import Results from "./Components/Results";
 import ResultDetails from './Components/ResultDetails'
 import DropDown from "./Components/DropDown";
-import { BrowserRouter as Router,Switch, Route, Link } from 'react-router-dom';
+import photo from "./img/nyt.png"
+import library from "./img/library2med.png"
 
 
 function App() {
@@ -51,15 +52,19 @@ function App() {
   return (
     <div className="App">
       <header className="NavBar">
-        <NavBar />
+        <NavBar  />
         <DropDown selectType={selectType} />
       </header>
       <main className="ResultsSection">
         {/* <Link to='/Components.ResultDetails'> */}
-          <Results books={books} />
+          <Results books={books} photo={photo} />
         {/* </Link> */}
         {/* <ResultDetails/> */}
       </main>
+      {books ? 
+            <img className="HomePhoto" src={library}/>
+
+      : null}
     </div>
   );
 }

@@ -3,16 +3,15 @@ import DropDown from './DropDown'
 import About from './About'
 import './NavBar.css'
 
-const NavBar = () => {
+const NavBar = ( {photo} ) => {
 
-    // const [type, setType] = useState("")
-    // const selectType = (event) => setType(event.target.innerText)
-
-    
+    console.log(photo)
     return (
         <div>
             
-            <div className="NavBar">
+            <div 
+            className="NavBar"
+            >
                 <div className="TitleIcon">
                     <h1>NYT BOOKS</h1>
                 </div>

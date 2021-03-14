@@ -1,26 +1,42 @@
+.ConditionalRender {
+  height: 1000px;
+}
+
 .ResultMap {
   /* background: rgb(32, 29, 29); */
   height: 100%;
   background-color: black;
-
+}
+.CriteriaBanner {
+  color:black;
+  text-align: center;
+  font-size: 40px;
 }
 .ResultChild {
+  background-repeat: none;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
     justify-items: center;
     align-items: center;
-
+    height: 600px;
 }
 
 .Result {
-  background: black;
-  height: 35vh;
-
+height: 30vh;
+margin-top: 5px;
 }
 
 .ResultImage {
     height: 187.5px;
     width: 123.75px;
     border: whitesmoke 1.5px solid;
+    opacity: 1;
+    
+}
+.grow { 
+  transition: all .2s ease-in-out;
+ }
+.grow:hover {
+  transform: scale(1.1); 
 }

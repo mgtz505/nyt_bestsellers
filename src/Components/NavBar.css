@@ -1,6 +1,7 @@
 
 .NavBar {
     background-color: white;
+    /* background-image: url("nyt_books/public/img/nyt.png"); */
     min-height: 50px;
     display: flex;
     flex-direction: row;
@@ -23,3 +24,9 @@ h1 {
     font-size: 60px;
     color: black;
 }
+.grow { 
+    transition: all .2s ease-in-out;
+   }
+  .grow:hover {
+    transform: scale(1.1); 
+  }

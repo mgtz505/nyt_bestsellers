@@ -42,8 +42,8 @@
 .abmenu.active {
     opacity: 1;
     visibility: visible;
-    transform: translateX(-700px);
-    transform: translateY(100px);
+    transform: translateX(-100px);
+    transform: translateY(40px);
 
 }
 .abmenu h2 {
