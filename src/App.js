@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import Results from "./Components/Results";
+import ResultDetails from './Components/ResultDetails'
 import DropDown from "./Components/DropDown";
+import { BrowserRouter as Router,Switch, Route, Link } from 'react-router-dom';
 
 
 function App() {
@@ -53,7 +55,10 @@ function App() {
         <DropDown selectType={selectType} />
       </header>
       <main className="ResultsSection">
-        <Results books={books} />
+        {/* <Link to='/Components.ResultDetails'> */}
+          <Results books={books} />
+        {/* </Link> */}
+        {/* <ResultDetails/> */}
       </main>
     </div>
   );
