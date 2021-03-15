@@ -21,7 +21,15 @@ If you simply want to see this application in action, follow this link:
 
 Otherwise, feel free to fork & clone this repo. Once you connect to a development server, feel free to play with the code as you see fit. Should you want to contribute to the development of this project, I think that improving the UX is probably the highest priority. There are some small visual blemishes that I would like to address once I have a chance to revisit this project. 
 
-### Sources Cited
+### Sources Cited and Photo Credits:
+
+Photo Credits:
+
+Modern Library:
+https://unsplash.com/photos/juqYjifAYaU by https://unsplash.com/@vork
+
+NYT Facade:
+https://unsplash.com/photos/19CYdO70ss4 by https://unsplash.com/@mrlenti
 
 React: 
 
