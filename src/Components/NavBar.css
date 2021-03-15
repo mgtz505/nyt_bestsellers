@@ -1,32 +1,31 @@
-
 .NavBar {
-    background-color: white;
-    /* background-image: url("nyt_books/public/img/nyt.png"); */
-    min-height: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    margin-bottom: 15px;
+  background-color: white;
+  /* background-image: url("nyt_books/public/img/nyt.png"); */
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 15px;
 }
 
 .titleIcon {
-    color:black
+  color: black;
 }
 
 .DropDownContainer {
-    align-self: center;
+  align-self: center;
 }
 
 h1 {
-    font-size: 60px;
-    color: black;
+  font-size: 60px;
+  color: black;
 }
-.grow { 
-    transition: all .2s ease-in-out;
-   }
-  .grow:hover {
-    transform: scale(1.1); 
-  }
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}

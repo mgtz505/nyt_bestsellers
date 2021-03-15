@@ -1,59 +1,59 @@
 .ConditionalRender {
-    background-color: black;
-    color: white;
-    display: grid;
-    /* flex-direction: row;
-    flex-wrap: wrap; */
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: left;
-    margin-top: 20px;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: left;
+  margin-top: 20px;
 }
 .ImageResult {
-    height: 475px;
-    width: 240px;
-    grid-column-start: 1;
-    margin-left: 50px;
-    margin-right: 100px;
+  height: 475px;
+  width: 240px;
+  grid-column-start: 1;
+  margin-left: 50px;
+  margin-right: 100px;
 }
 .TextResult {
-    background-color: black;
-    grid-column-start: 2;
-    margin-right: 5px;
-    align-content: start;
+  background-color: black;
+  grid-column-start: 2;
+  margin-right: 5px;
+  align-content: start;
 }
 
 .BookTitle {
-    color:white;
-    font-size: 25px;
-    font-weight: 700;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .BookAuthor {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-.BuyLinks { 
-    display: flex;
-align-items: center;}
+.BuyLinks {
+  display: flex;
+  align-items: center;
+}
 
 .Emphasis {
-    color:coral;
+  color: coral;
 }
 
 a {
-    color:white;
-    font-size: 20px;
-    text-align: center;    
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 img {
-    border: whitesmoke 1.5px solid;
+  border: whitesmoke 1.5px solid;
 }
 
-.grow { 
-    transition: all .2s ease-in-out;
-   }
-  .grow:hover {
-    transform: scale(1.1); 
-  }
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+  border: solid 1px coral;
+}

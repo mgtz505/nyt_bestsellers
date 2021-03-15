@@ -3,40 +3,40 @@
 }
 
 .ResultMap {
-  /* background: rgb(32, 29, 29); */
   height: 100%;
   background-color: black;
 }
 .CriteriaBanner {
-  color:black;
+  color: black;
   text-align: center;
   font-size: 40px;
 }
 .ResultChild {
   background-repeat: none;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: .5fr .5fr .5fr .5fr .5fr;
-    justify-items: center;
-    align-items: center;
-    height: 600px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  justify-items: center;
+  align-items: center;
+  height: 640px;
 }
 
 .Result {
-height: 30vh;
-margin-top: 5px;
+  height: 25vh;
+  margin-top: 2px;
 }
 
 .ResultImage {
-    height: 187.5px;
-    width: 123.75px;
-    border: whitesmoke 1.5px solid;
-    opacity: 1;
-    
+  height: 187.5px;
+  width: 123.75px;
+  border: whitesmoke 1.5px solid;
+  opacity: 1;
 }
-.grow { 
-  transition: all .2s ease-in-out;
- }
+.grow {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+}
 .grow:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
