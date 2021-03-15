@@ -12,7 +12,7 @@ When I find myself wanting to read a new book, I tend to spend more time than I 
 <img width="1425" alt="Screen Shot 2021-03-15 at 1 14 43 PM" src="https://media.git.generalassemb.ly/user/34057/files/a2ea9700-8590-11eb-8383-191835abdc9b">
 
 ## Which technologies were used in creating this application?
-This app was created using React hooks. I uploaded and deployed the application via Heroku. 
+This app was created using React hooks. I uploaded and deployed the application via Heroku. At the bottom of this repo, I've listed the online resources I used during this project.
 
 
 ## How can I use this application?
@@ -20,3 +20,27 @@ This app was created using React hooks. I uploaded and deployed the application 
 If you simply want to see this application in action, follow this link:
 
 Otherwise, feel free to fork & clone this repo. Once you connect to a development server, feel free to play with the code as you see fit. Should you want to contribute to the development of this project, I think that improving the UX is probably the highest priority. There are some small visual blemishes that I would like to address once I have a chance to revisit this project. 
+
+### Sources Cited
+
+React: 
+
+https://reactjs.org/docs/hooks-reference.html#useref
+
+https://letsbuildui.dev/articles/building-a-dropdown-menu-component-with-react-hooks 
+
+https://stackoverflow.com/questions/40722382/how-to-pass-state-back-to-parent-in-react
+
+CSS Formatting: 
+
+https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
+
+https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/
+
+https://create-react-app.dev/docs/adding-images-fonts-and-files/
+
+https://reactgo.com/react-background-image/
+
+https://www.w3schools.com/css/css3_images.asp
+
+https://css-tricks.com/snippets/css/complete-guide-grid/#introduction
