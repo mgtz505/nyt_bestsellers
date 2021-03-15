@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# NYT Best Seller Bookshelf
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description: Describe at a high level what your project is and the motivation for the project (i.e., what problem(s) your projects solves) and includes a screenshot of the application in the browser.
+## What is this application?
+When I find myself wanting to read a new book, I tend to spend more time than I should trying to find which book I want to begin. Sometimes it can feel like a huge commitment! I created this application to help users (hopefully) find their next read more quickly than they otherwise would. This app uses the NYT Developer API to render a display of the latest iteration of the NYT's bestseller list for four categories. Once a category has been selected, users can select among 15 rendered book-covers that will populate the display. Once a title has been selected, details about that selection appear below, including links to online-retailers where that title can be purchased.
 
-## Available Scripts
+## Main Component (Results render here):
+<img width="1440" alt="Screen Shot 2021-03-15 at 1 14 13 PM" src="https://media.git.generalassemb.ly/user/34057/files/98c89880-8590-11eb-8bc0-3382c20a1dd3">
 
-In the project directory, you can run:
 
-### `npm start`
+## Result Details Component:
+<img width="1425" alt="Screen Shot 2021-03-15 at 1 14 43 PM" src="https://media.git.generalassemb.ly/user/34057/files/a2ea9700-8590-11eb-8383-191835abdc9b">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Which technologies were used in creating this application?
+This app was created using React hooks. I uploaded and deployed the application via Heroku. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## How can I use this application?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you simply want to see this application in action, follow this link:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Otherwise, feel free to fork & clone this repo. Once you connect to a development server, feel free to play with the code as you see fit. Should you want to contribute to the development of this project, I think that improving the UX is probably the highest priority. There are some small visual blemishes that I would like to address once I have a chance to revisit this project. 
