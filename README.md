@@ -1,8 +1,8 @@
-# NYT Best Seller Bookshelf
+# NYT Best-Seller Bookshelf
 
-Description: Describe at a high level what your project is and the motivation for the project (i.e., what problem(s) your projects solves) and includes a screenshot of the application in the browser.
+
 ## What is this application?
-When I find myself wanting to read a new book, I tend to spend more time than I should trying to find which book I want to begin. Sometimes it can feel like a huge commitment! I created this application to help users (hopefully) find their next read more quickly than they otherwise would. This app uses the NYT Developer API to render a display of the latest iteration of the NYT's bestseller list for four categories. Once a category has been selected, users can select among 15 rendered book-covers that will populate the display. Once a title has been selected, details about that selection appear below, including links to online-retailers where that title can be purchased.
+When I find myself wanting to read a new book, I tend to spend more time than I should trying to find which book I want to begin reading. Sometimes it can feel like a huge commitment! I created this application to help users (hopefully) find their next read more quickly than they otherwise would. This app uses the NYT Developer API to render a display of the latest iteration of the NYT's bestseller list for four categories. Once a category has been selected, users can select among 15 rendered book-covers that will populate the display. Once a title has been selected, details about that selection appear below, including links to online-retailers where that title can be purchased.
 
 ## Main Component (Results render here):
 <img width="1440" alt="Screen Shot 2021-03-15 at 1 14 13 PM" src="https://media.git.generalassemb.ly/user/34057/files/98c89880-8590-11eb-8bc0-3382c20a1dd3">
