@@ -1,4 +1,4 @@
-# NYT Best-Seller Bookshelf
+# NYT Best-Sellers (An App built w/ React)
 
 
 ## What is this application?
