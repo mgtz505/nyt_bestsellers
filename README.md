@@ -26,30 +26,30 @@ Otherwise, feel free to fork & clone this repo. Once you connect to a developmen
 
 Photo Credits:
 
-Modern Library:
+- Modern Library:
 [Image](https://unsplash.com/photos/juqYjifAYaU) [Photographer](https://unsplash.com/@vork)
 
-NYT Facade:
+- NYT Facade:
 [Image](https://unsplash.com/photos/19CYdO70ss4) by [Photographer](https://unsplash.com/@mrlenti)
 
 React: 
 
-[React Hooks](https://reactjs.org/docs/hooks-reference.html#useref)
+- [React Hooks](https://reactjs.org/docs/hooks-reference.html#useref)
 
-[Constructing an AirBnb-Inspired Dropdown](https://letsbuildui.dev/articles/building-a-dropdown-menu-component-with-react-hooks)
+- [Constructing an AirBnb-Inspired Dropdown](https://letsbuildui.dev/articles/building-a-dropdown-menu-component-with-react-hooks)
 
-[Stack Overflow- Passing State to parent](https://stackoverflow.com/questions/40722382/how-to-pass-state-back-to-parent-in-react)
+- [Stack Overflow- Passing State to parent](https://stackoverflow.com/questions/40722382/how-to-pass-state-back-to-parent-in-react)
 
 CSS Formatting: 
 
-[Grow Effect](https://travis.media/how-to-make-an-item-grow-on-hover-with-css/)
+- [Grow Effect](https://travis.media/how-to-make-an-item-grow-on-hover-with-css/)
 
-[Grow Effect pt 2](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/)
+- [Grow Effect pt 2](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/)
 
-[Images](https://create-react-app.dev/docs/adding-images-fonts-and-files/)
+- [Images](https://create-react-app.dev/docs/adding-images-fonts-and-files/)
 
-[Background Images](https://reactgo.com/react-background-image/)
+- [Background Images](https://reactgo.com/react-background-image/)
 
-[CSS Images](https://www.w3schools.com/css/css3_images.asp)
+- [CSS Images](https://www.w3schools.com/css/css3_images.asp)
 
-[Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/#introduction)
+- [Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/#introduction)
