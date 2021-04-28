@@ -1,6 +1,6 @@
 # NYT Best-Sellers (An App built w/ React)
 
-- [Deployed Application](https://nyt-best-sellers.herokuapp.com/)
+- [Deployed Application; Give me a try and find a new book for this weekend!](https://nyt-best-sellers.herokuapp.com/)
 
 ## What is this application?
 When I find myself wanting to read a new book, I tend to spend more time than I should trying to find which book I want to begin reading. Sometimes it can feel like a huge commitment! I created this application to help users (hopefully) find their next read more quickly than they otherwise would. This app uses the NYT Developer API to render a display of the latest iteration of the NYT's bestseller list for four categories. Once a category has been selected, users can select among 15 rendered book-covers that will populate the display. Once a title has been selected, details about that selection appear below, including links to online-retailers where that title can be purchased.
