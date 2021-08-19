@@ -13,7 +13,7 @@ When I find myself wanting to read a new book, I tend to spend more time than I 
 <img width="1425" alt="Screen Shot 2021-03-15 at 1 14 43 PM" src="https://media.git.generalassemb.ly/user/34057/files/a2ea9700-8590-11eb-8383-191835abdc9b">
 
 ## Which technologies were used in creating this application?
-This app was created using React with extensive use React hooks. I uploaded and deployed the application via Heroku. At the bottom of this repo, I've listed the online resources I used during this project.
+This app was created using React with extensive use of React hooks. I uploaded and deployed the application via Heroku. At the bottom of this repo, I've listed the online resources I used during this project.
 
 
 ## How can I use this application?
